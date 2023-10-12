@@ -9,16 +9,16 @@ import Logo from './Assets/Logo.svg'
 export default function Header() {
     const router = useRouter()
   return (
-    <div className='px-[5%] py-6 fixed top-0 w-full flex justify-between text-[white] '>
+    <div className='px-[5%] py-6 fixed top-0 w-full flex items-center justify-between text-[white] '>
         <section className=' w-[15%] '>
-            <Image 
+            <Image
                 src={Logo}
                 alt="Vercel Logo"
                 className='w-full cursor-pointer'
                 onClick={() => router.push('/')}
             />
         </section>
-        <nav className='w-[40%] flex justify-between'>
+        <nav className='w-[45%] text-[1.2rem] text-otherWhite flex justify-between'>
         <Link href="/about">About</Link>
         <Link href="/academics">Academics</Link>
         <Link href="/faq">FAQ</Link>
