@@ -1,3 +1,4 @@
+import Footer from '@/Components/Footer'
 import Header from '@/Components/Header'
 import Hero from '@/Components/Hero/Hero'
 import Address from '@/Components/HomePage/Address'
@@ -19,6 +20,7 @@ export default function Home() {
         <Video />
         <Overview />
         <Address />
+        <Footer />
       </main>
     </section>
   )
