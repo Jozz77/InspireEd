@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Little() {
   return (
-    <div className=" px-[5%] pt-10 ">
+    <div className=" px-[5%] mt-20 ">
       <h1 className=" text-[3.3rem] leading-none capitalize ">
         A little about us
       </h1>

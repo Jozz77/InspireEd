@@ -6,6 +6,7 @@ import Eligility from '@/Components/HomePage/Eligility'
 import Glance from '@/Components/HomePage/Glance'
 import Little from '@/Components/HomePage/Little'
 import Overview from '@/Components/HomePage/Overview'
+import Satisfied from '@/Components/HomePage/Satisfied'
 import Video from '@/Components/HomePage/Video'
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
         <Eligility />
         <Video />
         <Overview />
+        <Satisfied />
         <Address />
         <Footer />
       </main>

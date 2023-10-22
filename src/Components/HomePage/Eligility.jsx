@@ -6,9 +6,9 @@ import Eli3 from "./Assets/Eli3.png";
 
 export default function Eligility() {
   return (
-    <div className=" px-[5%] pt-10 ">
+    <div className=" px-[5%] mt-20 ">
       <h1 className=" text-[3.3rem] leading-none capitalize pb-5 ">
-        Enrollment Eligibility
+      Curriculum Overview
       </h1>
       <section className=" flex gap-[3%] ">
         <div className=" w-1/3 font-semibold text-[1.5rem] ">

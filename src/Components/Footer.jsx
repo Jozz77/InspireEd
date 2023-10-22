@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className=" bg-red-400 mt-20 py-10 text-NormalWhite px-[5%] ">
       <section className=" w-[10%] flex mx-auto ">
-        <Link href="www.google.com" ><Image src={Logo} alt="Vercel Logo" className="w-full" /></Link>
+        <Link href="https://en.wikipedia.org" target="_blank" ><Image src={Logo} alt="Vercel Logo" className="w-full" /></Link>
       </section>
       <section className="w-[50%] mx-auto pt-6 ">
         <p className=" text-[1.3rem] leading-[180%] font-neucha capitalize  ">

@@ -3,7 +3,7 @@ import { GrLocation } from 'react-icons/gr';
 
 export default function Address() {
   return (
-    <div className=" px-[5%] pt-10 ">   
+    <div className=" px-[5%] mt-20 ">   
      <h1 className=" text-[3.3rem] leading-none capitalize pb-5 text-center ">Our address & contact details</h1>
 
      <div className=' font-neucha flex justify-between pt-4 '>
