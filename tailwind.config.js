@@ -28,7 +28,8 @@ module.exports = {
           'Purple':'#FE63E7',
           'Yellow':'#FDBC4D',
           'LightYellow':'#FFFBF5',
-          'LightRed':'#FDEDF1'
+          'LightRed':'#FDEDF1',
+          'TextLight':'#939393'
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)'],
