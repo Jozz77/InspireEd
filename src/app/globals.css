@@ -56,6 +56,12 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .satisfied {
+    background-image: url("../Components/Hero/Assets/Satisfied.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .footer {
     background-image: url("../Components/Hero/Assets/Footer.png");
     background-position: center;

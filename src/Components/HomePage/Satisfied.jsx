@@ -4,7 +4,7 @@ import { FaQuoteRight } from "react-icons/fa";
 
 export default function Satisfied() {
   return (
-    <div className=" bg-blue-400 mt-20 text-NormalWhite px-[5%] py-8 text-center ">
+    <div className=" satisfied mt-16 text-NormalWhite px-[5%] py-8 text-center ">
       <h3 className="text-[1.7rem] font-montserrat ">Satisfied Parents</h3>
       <h2 className=" text-[3rem] capitalize ">parents testimonials</h2>
 

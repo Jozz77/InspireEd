@@ -6,7 +6,7 @@ import Eli3 from "./Assets/Eli3.png";
 
 export default function Eligility() {
   return (
-    <div className=" px-[5%] mt-20 ">
+    <div className=" px-[5%] mt-16 ">
       <h1 className=" text-[3.3rem] leading-none capitalize pb-5 ">
       Curriculum Overview
       </h1>

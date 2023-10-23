@@ -3,7 +3,7 @@ import Button from "../Hero/Button/Button";
 
 export default function Glance() {
   return (
-    <div className=" px-[5%] mt-10 ">
+    <div className=" px-[5%] mt-16 ">
       <h1 className=" text-[3.3rem] leading-none capitalize ">
         InspireEd school at a glance
       </h1>

@@ -7,7 +7,7 @@ import OverviewData from "./OverviewData";
 
 export default function Overview() {
   return (
-    <div className=" px-[5%] mt-20 ">
+    <div className=" px-[5%] mt-16 ">
       <section className="flex">
         <h1 className=" text-[3.3rem] leading-none capitalize pb-5 w-1/2 ">
           Enrollment Eligibility
