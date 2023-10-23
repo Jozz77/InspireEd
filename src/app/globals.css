@@ -56,6 +56,12 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .footer {
+    background-image: url("../Components/Hero/Assets/Footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .general-faq{
     background-color: rgba(245, 130, 85, 0.42);
   }

@@ -5,7 +5,7 @@ import Logo from "./Assets/Logo.svg";
 
 export default function Footer() {
   return (
-    <div className=" bg-red-400  py-10 text-NormalWhite px-[5%] ">
+    <div className=" footer py-10 text-NormalWhite px-[5%] ">
       <section className=" w-[10%] flex mx-auto ">
         <Link href="https://en.wikipedia.org" target="_blank" ><Image src={Logo} alt="Vercel Logo" className="w-full" /></Link>
       </section>
