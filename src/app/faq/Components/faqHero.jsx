@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function FaqHero() {
+export default function Faqhero() {
   return (
     <div className='faq-hero h-[100vh] flex flex-col items-center text-center text-white justify-center '>
          <div className='w-[65%]'>
