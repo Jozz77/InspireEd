@@ -6,13 +6,13 @@ import Curriculum from './Components/Curriculum'
 import Activity from './Components/Activity'
 import Get from '../contact/Components/Get'
 import Address from '@/Components/HomePage/Address'
-import Faqhero from './Components/Faqhero'
+import Hero from './Components/Hero'
 
 export default function page() {
   return (
     <div>
       <Header />
-      <Faqhero />
+      <Hero />
       <General />
       <Curriculum />
       <Activity />
