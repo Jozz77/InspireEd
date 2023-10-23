@@ -18,9 +18,10 @@ export default function Header() {
                 onClick={() => router.push('/')}
             />
         </section>
-        <nav className='w-[45%] text-[1.2rem] text-otherWhite flex justify-between'>
+        <nav className='w-[50%] text-[1.2rem] text-otherWhite flex justify-between'>
         <Link href="/about">About</Link>
         <Link href="/academics">Academics</Link>
+        <Link href="/classes">Classes</Link>
         <Link href="/faq">FAQ</Link>
         <Link href="/reviews">Reviews</Link>
         <Link href="/contact">Contact</Link>
