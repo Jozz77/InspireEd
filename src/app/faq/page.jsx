@@ -7,13 +7,13 @@ import Curriculum from './Components/Curriculum'
 import Activity from './Components/Activity'
 import Get from '../contact/Components/Get'
 import Address from '@/Components/HomePage/Address'
-import FaqHero from './Components/Faqhero'
+// import FaqHero from './Components/FaqHero'
 
 export default function page() {
   return (
     <div>
       <Header />
-      <FaqHero />
+      {/* <FaqHero /> */}
       <General />
       <Curriculum />
       <Activity />
