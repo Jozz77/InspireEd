@@ -1,6 +1,6 @@
 import Header from '@/Components/Header'
 import React from 'react'
-import ContactAddress from './Components/Get'
+import Get from './Components/Get'
 import ContactHero from './Components/ContactHero'
 import Address from '@/Components/HomePage/Address'
 import Footer from '@/Components/Footer'
@@ -15,7 +15,7 @@ export default function page() {
       <Header />
       <ContactHero />
       <Address />
-      <ContactAddress />
+      <Get text='get in touch'/>
       <Footer />
     </div>
   )

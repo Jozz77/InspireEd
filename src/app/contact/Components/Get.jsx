@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Get() {
+export default function Get({text}) {
   return (
     <div className=" px-[5%] mt-20 ">
       <h1 className="mt-20 text-[3.3rem] leading-none capitalize pb-5 text-center ">
-        get in touch
+        {text}
       </h1>
 
       <form action="">

@@ -26,4 +26,21 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .faq-hero {
+    background-image: url("../Components/Hero/Assets/Faq.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .general-faq{
+    background-color: rgba(245, 130, 85, 0.42);
+  }
 
+  .curriculum-faq{
+    background: rgba(0, 61, 82, 0.42);
+
+  }
+  .activity-faq{
+    background: rgba(211, 47, 35, 0.42);
+
+  }
