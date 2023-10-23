@@ -1,13 +1,12 @@
-"use client";
+'use client'
 
-import React, { useState } from "react";
-import Image from "next/image";
-import GeneralPic from "../Assets/General.png";
-import GeneralData from "./GeneralData";
+import React, { useState } from 'react'
+import AboutFaqData from './AboutFaqData'
 import { PiPlusBold, PiMinusBold } from "react-icons/pi";
 
-export default function General() {
-  const [isOpen, setIsOpen] = useState([]);
+
+export default function AboutFaq() {
+    const [isOpen, setIsOpen] = useState([]);
 
   // FAQ data goes here
 
@@ -16,20 +15,10 @@ export default function General() {
     newIsOpen[index] = !newIsOpen[index];
     setIsOpen(newIsOpen);
   };
-
   return (
-    <div className=" px-[5%] mt-20 ">
-      <h1 className=" text-[3.3rem] leading-none capitalize ">
-        General Questions
-      </h1>
-
-      <section className=" flex justify-between items-center mt-10 ">
-        <div className=" w-[35%] ">
-          <Image className=" w-full " src={GeneralPic} alt="School Bus" />
-        </div>
-        <div className=" w-[60%] py-6 px-[2.5%] general-faq ">
+      <div className=" w-[60%] py-10 px-[5%] ">
           <ul className=" flex flex-col gap-y-3 ">
-            {GeneralData.map((item, index) => (
+            {AboutFaqData.map((item, index) => (
               <li key={index} className="   ">
                 <button
                   onClick={() => toggleAccordion(index)}
@@ -65,7 +54,5 @@ export default function General() {
             ))}
           </ul>
         </div>
-      </section>
-    </div>
-  );
+  )
 }
