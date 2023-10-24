@@ -39,7 +39,7 @@ export default function Hero() {
           <section className="home-hero ">
             <HeroSlider
               title="Shaping Tomorrow's Leaders Today"
-              text="For generations, InspireEd has been a beacon of academic excellence. Join us and become a part of this proud legacy."
+              text="For generations, InspireEd has always been a beacon of academic excellence. Join us and become a part of this proud legacy."
             />
           </section>
         </SwiperSlide>
