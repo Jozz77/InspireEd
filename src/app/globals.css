@@ -128,3 +128,13 @@ h1, h2, h3, h4, h5, h6 {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  /* slider fade slowly */
+  .mySwiper {
+    --swiper-fade-duration: 3s; /* Adjust the duration as needed (e.g., 2s for a slower fade) */
+  }
+  
+  /* Apply the duration to the fade effect */
+  .mySwiper .swiper-wrapper {
+    transition-duration: var(--swiper-fade-duration);
+  }
