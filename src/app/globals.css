@@ -90,3 +90,41 @@ h1, h2, h3, h4, h5, h6 {
   .reviews{
     border: 1px solid rgba(192, 171, 106, 0.15);
   }
+
+  /* Hero Slider */
+  .faq-slider {
+    background-image: url("../Components/Hero//HeroSliderAssets/Faq\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .reviews-slider {
+    background-image: url("../Components/Hero//HeroSliderAssets/Reviews.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .academics-slider {
+    background-image: url("../Components/Hero//HeroSliderAssets/Academics.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .classes-slider {
+    background-image: url("../Components/Hero//HeroSliderAssets/Classes.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-slider {
+    background-image: url("../Components/Hero//HeroSliderAssets/About\ Us\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact-slider {
+    background-image: url("../Components/Hero//HeroSliderAssets/contact.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
