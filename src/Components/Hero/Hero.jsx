@@ -8,8 +8,8 @@ export default function Hero() {
     <div className='home-hero h-[100vh] flex flex-col items-center text-center text-white justify-center '>
          <div className='w-[65%]'>
          <h1 className=' font-normal text-[4rem] '>Shaping Tomorrow's Leaders Today</h1>
-         <p className=' font-medium text-[1.4rem] mt-2 mb-4 '>For generations, InspireEd has been a beacon of academic excellence. Join us and become a part of this proud legacy.</p>
-         <div>
+         <p className=' font-medium text-[1.4rem] mt-2  '>For generations, InspireEd has been a beacon of academic excellence. Join us and become a part of this proud legacy.</p>
+         <div className='mt-8 '>
             <Button text='ENROLL' />
          </div>
          </div>

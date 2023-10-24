@@ -2,6 +2,7 @@ import Footer from '@/Components/Footer'
 import Header from '@/Components/Header'
 import Hero from '@/Components/Hero/Hero'
 import Address from '@/Components/HomePage/Address'
+import Cocurricular from '@/Components/HomePage/Cocurricular'
 import Eligility from '@/Components/HomePage/Eligility'
 import Glance from '@/Components/HomePage/Glance'
 import Little from '@/Components/HomePage/Little'
@@ -20,6 +21,7 @@ export default function Home() {
         <Eligility />
         <Video />
         <Overview />
+        <Cocurricular />
         <Satisfied />
         <Address />
         <Footer />
