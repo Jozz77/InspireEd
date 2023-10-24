@@ -8,7 +8,7 @@ export default function PeopleReviews() {
   return (
     <div className=" px-[5%] mt-20 flex justify-between gap-y-10  flex-wrap ">
         {PeopleReviewsData.map((PeopleReview) => (
-            <section className=" w-[45%] px-[1%] " key={PeopleReview.id}>
+            <section className="reviews rounded-[32px] px-[2%] py-4 w-[48%] " key={PeopleReview.id}>
             <div className=" w-[15%] ">
               <Image src={Top} alt="Top Image" className="w-full" />
             </div>

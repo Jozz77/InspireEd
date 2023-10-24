@@ -1,27 +1,27 @@
 const CurriculumData = [
     {
-        question: " Here is for questions, just wait for answers",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: " What curriculum does InspireEd School follow?",
+        answer: " InspireEd School follows a well-rounded curriculum that combines national standards with innovative teaching methods, designed to nurture holistic development."
     },
     {
-        question: "Here is for questions, just wait for answers",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "Are there advanced placement (AP) courses available for high school students?",
+        answer: " InspireEd School follows a well-rounded curriculum that combines national standards with innovative teaching methods, designed to nurture holistic development."
     },
     {
-        question: "What happens if I don't have an idea for a project?",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "How often is the curriculum updated to meet changing educational needs?",
+        answer: " InspireEd School follows a well-rounded curriculum that combines national standards with innovative teaching methods, designed to nurture holistic development."
     },
     {
-        question: "Can I join a team or do I have to come with one?",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "What extracurricular programs complement the curriculum?",
+        answer: " InspireEd School follows a well-rounded curriculum that combines national standards with innovative teaching methods, designed to nurture holistic development."
     },
     {
-        question: "What happens after the hackathon ends",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "How do you support students with diverse learning needs within the curriculum?",
+        answer: " InspireEd School follows a well-rounded curriculum that combines national standards with innovative teaching methods, designed to nurture holistic development."
     },
     {
-        question: " Here is for questions, just wait for answers",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: " Can parents and students access the curriculum and class materials online?",
+        answer: " InspireEd School follows a well-rounded curriculum that combines national standards with innovative teaching methods, designed to nurture holistic development."
     },
 ]
 

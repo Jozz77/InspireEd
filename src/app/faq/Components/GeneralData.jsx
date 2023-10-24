@@ -1,27 +1,27 @@
 const GeneralData = [
     {
-        question: " Here is for questions, just wait for answers",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: " What is the mission of InspireEd School?",
+        answer: "Our mission is to empower students with knowledge, skills, and values to thrive in a dynamic world while fostering a love for lifelong learning. "
     },
     {
-        question: "Here is for questions, just wait for answers",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "How can I apply for admission at InspireEd School?",
+        answer: "Our mission is to empower students with knowledge, skills, and values to thrive in a dynamic world while fostering a love for lifelong learning. "
     },
     {
-        question: "What happens if I don't have an idea for a project?",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "What extracurricular activities do you offer?",
+        answer: "Our mission is to empower students with knowledge, skills, and values to thrive in a dynamic world while fostering a love for lifelong learning. "
     },
     {
-        question: "Can I join a team or do I have to come with one?",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "What is the class size at InspireEd School?",
+        answer: "Our mission is to empower students with knowledge, skills, and values to thrive in a dynamic world while fostering a love for lifelong learning. "
     },
     {
-        question: "What happens after the hackathon ends",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "How can parents stay updated on their child's progress?",
+        answer: "Our mission is to empower students with knowledge, skills, and values to thrive in a dynamic world while fostering a love for lifelong learning. "
     },
     {
-        question: " Here is for questions, just wait for answers",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "  Are scholarships available for students?",
+        answer: "Our mission is to empower students with knowledge, skills, and values to thrive in a dynamic world while fostering a love for lifelong learning. "
     },
 ]
 

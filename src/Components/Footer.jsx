@@ -20,7 +20,7 @@ export default function Footer() {
         </p>
       </section>
 
-      <section className=" pt-8 ">
+      <section className=" pt-10 ">
         <hr className="border-solid border-[1px] border-NormalWhite" />
         <div className=" flex justify-between text-[1.3rem] capitalize pt-2 ">
           <small>Copyright @ 2023 Joygirl</small>

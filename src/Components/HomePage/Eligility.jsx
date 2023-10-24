@@ -8,7 +8,7 @@ export default function Eligility() {
   return (
     <div className=" px-[5%] mt-16 ">
       <h1 className=" text-[3.3rem] leading-none capitalize pb-5 ">
-      Curriculum Overview
+      Enrollment Eligibility
       </h1>
       <section className=" flex gap-[3%] ">
         <div className=" w-1/3 font-semibold text-[1.5rem] ">

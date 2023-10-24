@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Get({text}) {
   return (
-    <div className=" px-[5%] mt-20 ">
+    <div className=" px-[5%] my-16 ">
       <h1 className="mt-20 text-[3.3rem] leading-none capitalize pb-5 text-center ">
         {text}
       </h1>

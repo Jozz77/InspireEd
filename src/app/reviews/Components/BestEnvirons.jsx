@@ -7,13 +7,12 @@ export default function BestEnvirons() {
       <h1 className=" text-[3.3rem] leading-none capitalize pb-5  ">
         Best environment for your kids
       </h1>
-      <p className=" text-[2.2rem] px-[5%] font-neucha leading-[180%] " >
-        Texts to convince parent to enroll their kids and also mention the
-        benefit of enrolling their kids in our school. everything should’nt be
-        more than two lines
+      <p className=" text-[2.2rem] px-[5%] font-neucha leading-[180%] ">
+        Choose InspireEd School for a well-rounded education, inspiring
+        creativity, critical thinking, and a love for learning in every child.
       </p>
       <div className=" uppercase mt-6 ">
-        <Button text="Make enquires" />
+        <Button text="MAKE ENQUIRIES" />
       </div>
     </div>
   );

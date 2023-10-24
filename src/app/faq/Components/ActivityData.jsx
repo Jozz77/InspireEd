@@ -1,27 +1,27 @@
 const ActivityData = [
     {
-        question: " Here is for questions, just wait for answers",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: " What types of extracurricular activities are offered at InspireEd School?",
+        answer: "Our mission is to empower students with knowledge, skills, and values to thrive in a dynamic world while fostering a love for lifelong learning. "
     },
     {
-        question: "Here is for questions, just wait for answers",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "Are there opportunities for students to participate in competitive sports?",
+        answer: "Our mission is to empower students with knowledge, skills, and values to thrive in a dynamic world while fostering a love for lifelong learning. "
     },
     {
-        question: "What happens if I don't have an idea for a project?",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "How can students join clubs and organizations at the school?",
+        answer: "Our mission is to empower students with knowledge, skills, and values to thrive in a dynamic world while fostering a love for lifelong learning. "
     },
     {
-        question: "Can I join a team or do I have to come with one?",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "Is community service a part of the activities program?",
+        answer: "Our mission is to empower students with knowledge, skills, and values to thrive in a dynamic world while fostering a love for lifelong learning. "
     },
     {
-        question: "What happens after the hackathon ends",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "Do you organize field trips and educational outings?",
+        answer: "Our mission is to empower students with knowledge, skills, and values to thrive in a dynamic world while fostering a love for lifelong learning. "
     },
     {
-        question: " Here is for questions, just wait for answers",
-        answer: "Build your kids dream Build your kids dream Build your kids dream Build your kids dream build your kids dream Build your kids dream Build your kids dream Build your kids dream "
+        question: "How often are activity schedules updated, and how can students and parents stay informed?",
+        answer: "Our mission is to empower students with knowledge, skills, and values to thrive in a dynamic world while fostering a love for lifelong learning. "
     },
 ]
 

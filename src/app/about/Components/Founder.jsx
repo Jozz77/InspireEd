@@ -11,16 +11,16 @@ export default function Founder() {
       </div>
 
       <div className=" w-[65%] ">
-      <div className=" w-[10%] ">
-        <Image src={Image2} className=" w-full " alt="" />
-      </div>
-        <p className=" text-[2.2rem] pb-2 italic leading-[180%] ">
-          cras viverra purus venenatis proin molestie senectus. Adipiscing
-          tellus elit ante sed sit faucibus egestas dapibus posuere. Lacinia
-          vitae tincidunt purus.
+        <div className=" w-[10%] ">
+          <Image src={Image2} className=" w-full " alt="" />
+        </div>
+        <p className=" text-[2.1rem] pb-2 italic leading-[180%] ">
+          Unlock your child's potential at InspireEd School, where a nurturing
+          environment and innovative programs lay the foundation for lifelong
+          success
         </p>
         <small className=" text-[1.2rem] font-medium  ">
-        Founder of inspireEd - Whiney Samson
+          Founder of inspireEd - Whiney Samson
         </small>
       </div>
     </div>

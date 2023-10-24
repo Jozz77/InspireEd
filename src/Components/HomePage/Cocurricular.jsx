@@ -10,7 +10,7 @@ export default function Cocurricular() {
       </h1>
 
       <div className=" flex justify-between items-center pt-5 gap-x-[5%]">
-        <section className=" w-[52%] flex flex-col gap-4 border-solid border-l-[3px] border-Purple pl-2 ">
+        <section className=" w-[52%] flex flex-col gap-4 border-solid border-l-[4px] border-Purple pl-2 ">
           <div className="  ">
             <h3 className=" text-[1.3rem] ">Athletics</h3>
             <p className=" text-base leading-[180%]">
