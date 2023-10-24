@@ -12,7 +12,8 @@ body {
     color: #000;
   }
   header{
-    background: rgba(255, 255, 255, 0.854);
+    /* background: rgba(255, 255, 255, 0.854);
+    color: black; */
   }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-neucha);
@@ -130,11 +131,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   /* slider fade slowly */
-  .mySwiper {
-    --swiper-fade-duration: 3s; /* Adjust the duration as needed (e.g., 2s for a slower fade) */
+  .mySwiper .swiper-slide {
+    opacity: 0;
+    transition: opacity 12s; /* Adjust the duration (1s = 1 second) */
   }
   
-  /* Apply the duration to the fade effect */
-  .mySwiper .swiper-wrapper {
-    transition-duration: var(--swiper-fade-duration);
+  .mySwiper .swiper-slide-active {
+    opacity: 1;
   }

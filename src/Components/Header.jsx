@@ -9,7 +9,7 @@ import Logo from './Assets/Logo.svg'
 export default function Header() {
     const router = useRouter()
   return (
-    <header className='px-[5%] py-2 fixed top-0 z-10 w-full flex items-center justify-between text-[#0A0A1F)] '>
+    <header className='px-[5%] py-4 fixed top-0 z-10 w-full flex items-center justify-between text-NormalWhite'>
         <section className=' w-[15%] '>
             <Image
                 src={Logo}
