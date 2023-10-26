@@ -16,7 +16,9 @@ export default function page() {
       <Header />
       <ContactHero />
       <Address />
+      <div className=' mb-8 sm:mb-10 lg:mb-12 xl:mb-16'>
       <Get text='get in touch'/>
+      </div>
       <Footer />
     </div>
   )
