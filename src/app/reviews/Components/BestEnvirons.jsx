@@ -1,5 +1,4 @@
-import Button from "@/Components/Hero/Button/Button";
-import ButtonOther from "@/Components/Hero/Button/ButtonOther";
+import ButtonOther from "@/app/Components/Hero/Button/ButtonOther";
 import React from "react";
 
 export default function BestEnvirons() {

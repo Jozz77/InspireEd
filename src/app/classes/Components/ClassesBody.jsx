@@ -6,7 +6,8 @@ import Link from "next/link";
 import PrimaryData from "./PrimaryData";
 import JuniorData from "./JuniorData";
 import SeniorData from "./SeniorData";
-import EnrollForm from "@/Components/HomePage/EnrollForm";
+import EnrollForm from "@/app/Components/HomePage/EnrollForm";
+
 
 export default function ClassesBody() {
   const [activeTab, setActiveTab] = useState("tab1"); // Set the default active tab
