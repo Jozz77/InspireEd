@@ -8,7 +8,6 @@ import JuniorData from "./JuniorData";
 import SeniorData from "./SeniorData";
 import EnrollForm from "@/app/Components/HomePage/EnrollForm";
 
-
 export default function ClassesBody() {
   const [activeTab, setActiveTab] = useState("tab1"); // Set the default active tab
   const handleTabClick = (tab) => {
@@ -27,38 +26,40 @@ export default function ClassesBody() {
   };
 
   return (
-    <div className=" px-[5%] my-16 ">
+    <div className=" px-[5%] my-8 sm:my-10 lg:my-12 xl:my-16 ">
       <section className=" flex justify-between items-center pb-8 ">
-        <h1 className=" text-[3.3rem] leading-none capitalize ">Classes</h1>
+        <h1 className=" text-[1.9rem] ssm:text-[2.5rem] sm:text-[3rem] lg:text-[3.3rem] leading-none capitalize ">
+          Classes
+        </h1>
 
-        <div className="flex justify-between w-[60%] items-center ">
+        <div className="flex justify-between w-[70%] xl:w-[60%] items-center text-[1rem] ">
           <div
             onClick={() => handleTabClick("tab1")}
-            className={`cursor-pointer rounded-[32px] py-2 px-10 uppercase ${
+            className={`cursor-pointer rounded-[32px] py-2 px-8 xl:px-10 uppercase ${
               activeTab === "tab1"
                 ? "bg-[#4747D7] text-NormalWhite transition duration-800 ease-in-out"
                 : " text-gray border-solid bg-transparent border-[1px] border-[#0A0A1F] transition duration-800 ease-in-out"
-            } text-[1rem] font-semibold `}
+            }  font-semibold `}
           >
             PRIMARY
           </div>
           <div
             onClick={() => handleTabClick("tab2")}
-            className={`cursor-pointer rounded-[32px] py-2 px-10 uppercase  ${
+            className={`cursor-pointer rounded-[32px] py-2 px-8 xl:px-10 uppercase  ${
               activeTab === "tab2"
                 ? "bg-[#4747D7] text-NormalWhite transition duration-800 ease-in-out"
                 : " text-gray bg-transparent border-solid border-[1px] border-[#0A0A1F] transition duration-800 ease-in-out"
-            } text-[1rem] font-semibold `}
+            }  font-semibold `}
           >
             Junior secondary
           </div>
           <div
             onClick={() => handleTabClick("tab3")}
-            className={`cursor-pointer rounded-[32px] py-2 px-10 uppercase  ${
+            className={`cursor-pointer rounded-[32px] py-2 px-8 xl:px-10 uppercase  ${
               activeTab === "tab3"
                 ? "bg-[#4747D7] text-NormalWhite transition duration-800 ease-in-out"
                 : " text-gray border-solid bg-transparent border-[1px] border-[#0A0A1F] transition duration-800 ease-in-out"
-            } text-[1rem] font-semibold `}
+            }  font-semibold `}
           >
             Senior secondary
           </div>
