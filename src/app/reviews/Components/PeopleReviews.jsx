@@ -6,7 +6,7 @@ import PeopleReviewsData from "./PeopleReviewsData";
 
 export default function PeopleReviews() {
   return (
-    <div className=" px-[5%] mt-20 flex justify-between gap-y-10  flex-wrap ">
+    <div className=" px-[5%] mt-16 flex justify-between gap-y-10  flex-wrap ">
         {PeopleReviewsData.map((PeopleReview) => (
             <section className="reviews rounded-[32px] px-[2%] py-4 w-[48%] " key={PeopleReview.id}>
             <div className=" w-[15%] ">

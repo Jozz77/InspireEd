@@ -19,55 +19,55 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-neucha);
   }
   .home-hero {
-    background-image: url("../Components/Hero/Assets/HomeHero.png");
+    background-image: url("../app/Components/Hero/Assets/HomeHero.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .contact-hero {
-    background-image: url("../Components/Hero/Assets/ContactHero.png");
+    background-image: url("../app/Components/Hero/Assets/ContactHero.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .faq-hero {
-    background-image: url("../Components/Hero/Assets/Faq.png");
+    background-image: url("../app/Components/Hero/Assets/Faq.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .reviews-hero {
-    background-image: url("../Components/Hero/Assets/Reviews.png");
+    background-image: url("../app/Components/Hero/Assets/Reviews.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .about-hero {
-    background-image: url("../Components/Hero/Assets/About\ Us.png");
+    background-image: url("../app/Components/Hero/Assets/About\ Us.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .academics-hero {
-    background-image: url("../Components/Hero/Assets/Academics.png");
+    background-image: url("../app/Components/Hero/Assets/Academics.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .classes-hero {
-    background-image: url("../Components/Hero/Assets/Classes.png");
+    background-image: url("../app/Components/Hero/Assets/Classes.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .satisfied {
-    background-image: url("../Components/Hero/Assets/Satisfied.png");
+    background-image: url("../app/Components/Hero/Assets/Satisfied.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .footer {
-    background-image: url("../Components/Hero/Assets/Footer.png");
+    background-image: url("../app/Components/Hero/Assets/Footer.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -94,37 +94,37 @@ h1, h2, h3, h4, h5, h6 {
 
   /* Hero Slider */
   .faq-slider {
-    background-image: url("../Components/Hero//HeroSliderAssets/Faq\ \(1\).png");
+    background-image: url("../app/Components/Hero/HeroSliderAssets/Faq\ \(1\).png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .reviews-slider {
-    background-image: url("../Components/Hero//HeroSliderAssets/Reviews.png");
+    background-image: url("../app/Components/Hero//HeroSliderAssets/Reviews.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .academics-slider {
-    background-image: url("../Components/Hero//HeroSliderAssets/Academics.png");
+    background-image: url("../app/Components/Hero//HeroSliderAssets/Academics.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .classes-slider {
-    background-image: url("../Components/Hero//HeroSliderAssets/Classes.png");
+    background-image: url("../app/Components/Hero//HeroSliderAssets/Classes.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .about-slider {
-    background-image: url("../Components/Hero//HeroSliderAssets/About\ Us\ \(1\).png");
+    background-image: url("../app/Components/Hero//HeroSliderAssets/About\ Us\ \(1\).png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .contact-slider {
-    background-image: url("../Components/Hero//HeroSliderAssets/contact.png");
+    background-image: url("../app/Components/Hero//HeroSliderAssets/contact.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,9 +133,19 @@ h1, h2, h3, h4, h5, h6 {
   /* slider fade slowly */
   .mySwiper .swiper-slide {
     opacity: 0;
-    transition: opacity 12s; /* Adjust the duration (1s = 1 second) */
+    transition: opacity 2s; 
   }
   
   .mySwiper .swiper-slide-active {
+    opacity: 1;
+  }
+
+  /* new */
+  .fade-animation {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-animation.active {
     opacity: 1;
   }

@@ -1,6 +1,6 @@
 import React from "react";
-import Button from "../Hero/Button/Button";
 import { FaQuoteRight } from "react-icons/fa";
+import ButtonOther from "../Hero/Button/ButtonOther";
 
 export default function Satisfied() {
   return (
@@ -25,7 +25,7 @@ export default function Satisfied() {
           Oliver Twist
         </h3>
         <div className=" pt-6 ">
-          <Button text="READ MORE" />
+          <ButtonOther text="READ MORE" link="/reviews" />
         </div>
       </section>
     </div>

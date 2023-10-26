@@ -2,6 +2,7 @@ import React from 'react'
 import Button from './Button/Button'
 
 export default function HeroSlider({title, text}) {
+  
   return (
     <section className=' h-[100vh] flex flex-col items-center text-center text-white justify-center '>
          <div className='w-[65%]'>

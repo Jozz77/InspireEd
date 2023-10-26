@@ -1,7 +1,7 @@
 import React from "react";
 import { BiSolidQuoteLeft } from "react-icons/bi";
 
-const YouTubeEmbed = () => {
+const Video = () => {
   return (
     <div className=" mt-16  ">
       <section className=" relative pb-[56.25%] mx-[5%] h-0 overflow-hidden ">
@@ -29,4 +29,4 @@ const YouTubeEmbed = () => {
   );
 };
 
-export default YouTubeEmbed;
+export default Video;

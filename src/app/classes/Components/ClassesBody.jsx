@@ -6,11 +6,23 @@ import Link from "next/link";
 import PrimaryData from "./PrimaryData";
 import JuniorData from "./JuniorData";
 import SeniorData from "./SeniorData";
+import EnrollForm from "@/Components/HomePage/EnrollForm";
 
 export default function ClassesBody() {
   const [activeTab, setActiveTab] = useState("tab1"); // Set the default active tab
   const handleTabClick = (tab) => {
     setActiveTab(tab);
+  };
+
+  // modal
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
   };
 
   return (
@@ -67,11 +79,14 @@ export default function ClassesBody() {
               <p className=" text-[1rem] font-medium mt-2 mb-4 ">
                 {primary.text}
               </p>
-              <Link href="">
-                <button className=" text-[1.2rem] font-semibold uppercase hover:bg-[#4747D7] hover:text-NormalWhite hover:border-none border-solid border-[1px] border-[#0A0A1F] w-full rounded-[32px] py-2 ">
-                  Enroll
-                </button>
-              </Link>
+
+              <button
+                onClick={openModal}
+                className=" text-[1.2rem] font-semibold uppercase hover:bg-[#4747D7] hover:text-NormalWhite hover:border-none border-solid border-[1px] border-[#0A0A1F] w-full rounded-[32px] py-2 "
+              >
+                Enroll
+              </button>
+              <EnrollForm isOpen={isModalOpen} onClose={closeModal} />
             </div>
           ))}
         </section>
@@ -92,11 +107,13 @@ export default function ClassesBody() {
               <p className=" text-[1rem] font-medium mt-2 mb-4 ">
                 {junior.text}
               </p>
-              <Link href="">
-                <button className=" text-[1.2rem] font-semibold uppercase hover:bg-[#4747D7] hover:text-NormalWhite hover:border-none border-solid border-[1px] border-[#0A0A1F] w-full rounded-[32px] py-2 ">
-                  Enroll
-                </button>
-              </Link>
+              <button
+                onClick={openModal}
+                className=" text-[1.2rem] font-semibold uppercase hover:bg-[#4747D7] hover:text-NormalWhite hover:border-none border-solid border-[1px] border-[#0A0A1F] w-full rounded-[32px] py-2 "
+              >
+                Enroll
+              </button>
+              <EnrollForm isOpen={isModalOpen} onClose={closeModal} />
             </div>
           ))}
         </section>
@@ -117,11 +134,13 @@ export default function ClassesBody() {
               <p className=" text-[1rem] font-medium mt-2 mb-4 ">
                 {senior.text}
               </p>
-              <Link href="">
-                <button className=" text-[1.2rem] font-semibold uppercase hover:bg-[#4747D7] hover:text-NormalWhite hover:border-none border-solid border-[1px] border-[#0A0A1F] w-full rounded-[32px] py-2 ">
-                  Enroll
-                </button>
-              </Link>
+              <button
+                onClick={openModal}
+                className=" text-[1.2rem] font-semibold uppercase hover:bg-[#4747D7] hover:text-NormalWhite hover:border-none border-solid border-[1px] border-[#0A0A1F] w-full rounded-[32px] py-2 "
+              >
+                Enroll
+              </button>
+              <EnrollForm isOpen={isModalOpen} onClose={closeModal} />
             </div>
           ))}
         </section>

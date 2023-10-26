@@ -1,4 +1,5 @@
 import Button from "@/Components/Hero/Button/Button";
+import ButtonOther from "@/Components/Hero/Button/ButtonOther";
 import React from "react";
 
 export default function BestEnvirons() {
@@ -12,7 +13,7 @@ export default function BestEnvirons() {
         creativity, critical thinking, and a love for learning in every child.
       </p>
       <div className=" uppercase mt-6 ">
-        <Button text="MAKE ENQUIRIES" />
+        <ButtonOther text="MAKE ENQUIRIES" link="/contact" />
       </div>
     </div>
   );

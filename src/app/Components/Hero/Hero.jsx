@@ -1,27 +1,76 @@
-'use client'
+"use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import Button from "./Button/Button";
 import HeroSlider from "./HeroSlider";
 import { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
-// import "./styles.css";
-
-// import required modules
-import { EffectFade, Autoplay, Navigation, Pagination } from "swiper/modules";
 
 export default function Hero() {
+  // const [activeSection, setActiveSection] = useState(1);
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     // Toggle between sections after a specified interval (in milliseconds)
+  //     setActiveSection(activeSection === 1 ? 2 : 1);
+  //   }, 5000); // Change sections every 5 seconds (adjust the interval as needed)
+
+  //   return () => {
+  //     clearInterval(interval); // Clear the interval to prevent memory leaks
+  //   };
+  // }, [activeSection]);
+  const [activeSection, setActiveSection] = useState(1);
+  const totalSections = 7; // Define the total number of sections
+  const switchInterval = 5000; // Interval to switch sections (in milliseconds)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // Toggle between sections in a cyclic manner
+      setActiveSection((activeSection % totalSections) + 1);
+    }, switchInterval);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [activeSection]);
+
+  // Create an array of sections
+  const sections = [...Array(totalSections)].map((_, index) => (
+    <section key={index} className={`section ${activeSection === index + 1 ? "active" : ""}`}>
+      <HeroSlider
+        title={`Section ${index + 1} Title`}
+        text={`Content for section ${index + 1}`}
+      />
+    </section>
+  ));
+  
   return (
-    <div>
-      <Swiper
+    <div className="">
+      {activeSection === 1 && (
+        <section
+          className={`home-hero ${
+            activeSection === 1 ? "fade-animation active" : "fade-animation"
+          }`}
+        >
+          <HeroSlider
+            title="Shaping Tomorrow's Leaders Today"
+            text="For generations, InspireEd has always been a beacon of academic excellence. Join us and become a part of this proud legacy."
+          />
+        </section>
+      )}
+      {activeSection === 2 && (
+         <section
+         className={`about-slider ${
+           activeSection === 2 ? "fade-animation active" : "fade-animation"
+         }`}
+       >
+         <HeroSlider
+           title="Pioneering Excellence"
+           text="Transforming Education for a Brighter Future"
+         />
+       </section>
+      )}
+     
+      {/* <Swiper
         spaceBetween={30}
         effect={"fade"}
         navigation={false}
@@ -91,7 +140,7 @@ export default function Hero() {
             />
           </section>
         </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
     </div>
   );
 }
