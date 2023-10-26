@@ -5,14 +5,14 @@ import Logo from "./Assets/Logo.svg";
 
 export default function Footer() {
   return (
-    <div className=" footer py-10 text-NormalWhite px-[5%] ">
-      <section className=" w-[10%] flex mx-auto ">
+    <div className=" footer py-6 ssm:py-6 sm:py-8 md:py-10 text-NormalWhite px-[5%] ">
+      <section className=" w-[30%] ssm:w-[25%] sm:w-[20%] md:w-[18%] lg:w-[12%] xl:w-[10%] flex mx-auto ">
         <Link href="https://en.wikipedia.org" target="_blank">
           <Image src={Logo} alt="Vercel Logo" className="w-full" />
         </Link>
       </section>
-      <section className="w-[60%] mx-auto pt-10 ">
-        <p className=" text-[1.3rem] leading-[180%] font-neucha capitalize  ">
+      <section className="w-[100%] sm:w-[90%] md:w-[70%] lg:w-[60%] mx-auto py-6 ssm:py-6 lg:py-10 xl:py-12 ">
+        <p className=" text-[1rem] ssm:text-[1.1rem] sm:text-[1.3rem] leading-[180%] text-center font-neucha capitalize  ">
           InspireEd School is a vibrant educational institution dedicated to
           nurturing young minds, fostering academic excellence within a
           supportive, engaging learning environment. Our innovative programs
@@ -20,9 +20,9 @@ export default function Footer() {
         </p>
       </section>
 
-      <section className=" pt-10 ">
+      <section className="  ">
         <hr className="border-solid border-[1px] border-NormalWhite" />
-        <div className=" flex justify-between text-[1.3rem] capitalize pt-2 ">
+        <div className=" flex justify-between text-[0.8rem] ssm:text-[0.9rem] sm:text-[1.1rem] md:text-[1.2rem] lg:text-[1.3rem] capitalize pt-2 ">
           <small>Copyright @ 2023 Joygirl</small>
           <small>Powered by InspireEd</small>
         </div>

@@ -18,6 +18,9 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-neucha);
   }
+ .active {
+    color: red; /* Set your active link styling here */
+  }
   .home-hero {
     background-image: url("../app/Components/Hero/Assets/HomeHero.png");
     background-position: center;
@@ -141,11 +144,27 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   /* new */
-  .fade-animation {
+  /* .fade-animation {
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 1s ease-in-out;
   }
   
   .fade-animation.active {
     opacity: 1;
+  }
+  .hiden {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out;
+  } */
+  .section {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out, visibility 0s linear 0.5s;
+  }
+  
+  .section.active {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease-in-out;
   }

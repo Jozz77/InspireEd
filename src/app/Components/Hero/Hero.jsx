@@ -33,19 +33,66 @@ export default function Hero() {
     };
   }, [activeSection]);
 
-  // Create an array of sections
-  const sections = [...Array(totalSections)].map((_, index) => (
-    <section key={index} className={`section ${activeSection === index + 1 ? "active" : ""}`}>
-      <HeroSlider
-        title={`Section ${index + 1} Title`}
-        text={`Content for section ${index + 1}`}
-      />
-    </section>
-  ));
-  
+// Create an array of objects, each containing the content for a section
+const sectionContent = [
+  {
+    title: "Section 1 Title",
+    text: "Content for Section 1",
+    class: "home-hero", // Add the class for this section
+  },
+  {
+    title: "Section 2 Title",
+    text: "Content for Section 2",
+    class: "about-slider", // Add the class for this section
+  },
+  {
+    title: "Section 2 Title",
+    text: "Content for Section 2",
+    class: "about-slider", // Add the class for this section
+  },
+  {
+    title: "Section 2 Title",
+    text: "Content for Section 2",
+    class: "about-slider", // Add the class for this section
+  },
+  {
+    title: "Section 2 Title",
+    text: "Content for Section 2",
+    class: "about-slider", // Add the class for this section
+  },
+  {
+    title: "Section 2 Title",
+    text: "Content for Section 2",
+    class: "about-slider", // Add the class for this section
+  },
+  {
+    title: "Section 2 Title",
+    text: "Content for Section 2",
+    class: "about-slider", // Add the class for this section
+  },
+];
+   // Create an array of sections based on the sectionContent data
+  //  const sections = sectionContent.map((content, index) => (
+  //   <section key={index} className={`section ${content.class} ${activeSection === index + 1 ? "active" : ""}`}>
+  //     <HeroSlider title={content.title} text={content.text} />
+  //   </section>
+  // ));
+
   return (
     <div className="">
-      {activeSection === 1 && (
+ {sectionContent.map((content, index) => (
+        <section
+          key={index}
+          className={`section ${content.class} ${
+            activeSection === index ? "active" : ""
+          }`}
+        >
+          {activeSection === index && (
+            <HeroSlider title={content.title} text={content.text} />
+          )}
+        </section>
+      ))}
+      {/* {activeSection === 1 && (
         <section
           className={`home-hero ${
             activeSection === 1 ? "fade-animation active" : "fade-animation"
@@ -68,7 +115,7 @@ export default function Hero() {
            text="Transforming Education for a Brighter Future"
          />
        </section>
-      )}
+      )} */}
      
       {/* <Swiper
         spaceBetween={30}
