@@ -23,8 +23,8 @@ export default function Footer() {
       <section className="  ">
         <hr className="border-solid border-[1px] border-NormalWhite" />
         <div className=" flex justify-between text-[0.8rem] ssm:text-[0.9rem] sm:text-[1.1rem] md:text-[1.2rem] lg:text-[1.3rem] capitalize pt-2 ">
-          <small>Copyright @ 2023 Joygirl</small>
-          <small>Powered by InspireEd</small>
+          <small>Copyright @ 2023 InspireEd</small>
+          <small>Designed by Joygirl</small>
         </div>
       </section>
     </div>

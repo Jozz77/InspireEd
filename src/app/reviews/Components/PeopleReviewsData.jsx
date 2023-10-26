@@ -15,6 +15,7 @@ const PeopleReviewsData = [
         name: "Mary Jane",
         date: "August 17, 2023",
         img: Pic1,
+        class: "hover:bg-[#543361]",
         review: "InspireEd School is truly exceptional! The dedicated educators, innovative programs, and supportive environment have given our child an excellent education and a lifelong love for learning. "
     },
     {
@@ -22,6 +23,7 @@ const PeopleReviewsData = [
         name: "Rosella ween",
         date: "May 6, 2023",
         img: Pic2,
+        class: "hover:bg-[#813641]",
         review: "I can't praise InspireEd School enough. The nurturing atmosphere, diverse extracurricular activities, and focus on holistic growth make it a top-notch choice for education     "
     },
     {
@@ -29,6 +31,7 @@ const PeopleReviewsData = [
         name: "JoyBoy",
         date: "June 16, 2023",
         img: Pic3,
+        class: "hover:bg-[#9F4090]",
         review: "As a parent, I'm immensely satisfied with InspireEd School. The strong curriculum, individualized attention, and an emphasis on character development create an ideal learning environment "
     },
     {
@@ -36,6 +39,7 @@ const PeopleReviewsData = [
         name: "Joy Girl",
         date: "May 9, 2023",
         img: Pic4,
+        class: "hover:bg-[#184547]",
         review: "InspireEd School is the perfect blend of academics and character building. The dedication of teachers and a wide range of activities contribute to well-rounded student growth."
     },
     {
@@ -43,6 +47,7 @@ const PeopleReviewsData = [
         name: "Joshua dan",
         date: "September 6, 2023",
         img: Pic5,
+        class: "hover:bg-[#14BE78]",
         review: "InspireEd School exceeded our expectations. Their commitment to academic excellence, personalized support, and a caring community have been the foundation of our child's success. "
     },
     {
@@ -50,6 +55,7 @@ const PeopleReviewsData = [
         name: "Ben Carson",
         date: "January 12, 2023",
         img: Pic6,
+        class: "hover:bg-[#762109]",
         review: "I couldn't be happier with InspireEd School. The opportunities for students to excel, both academically and in extracurriculars, are outstanding. It's a place where dreams are nurtured. "
     },
     {
@@ -57,6 +63,7 @@ const PeopleReviewsData = [
         name: "Daniella Frances",
         date: "June 1, 2023",
         img: Pic7,
+        class: "hover:bg-[#0CAADC]",
         review: "InspireEd School has been a beacon of academic excellence and personal growth for our child. The teachers' dedication and the school's welcoming environment make it stand out."
     },
     {
@@ -64,6 +71,7 @@ const PeopleReviewsData = [
         name: "Edna sarah",
         date: "August 12, 2023",
         img: Pic8,
+        class: "hover:bg-[#CE9019]",
         review: "I wholeheartedly recommend InspireEd School to any parent seeking a holistic education for their child. The well-rounded curriculum, caring educators, and vibrant community have exceeded our expectations. "
     },
     {
@@ -71,6 +79,7 @@ const PeopleReviewsData = [
         name: "Mary John",
         date: "April 18, 2023",
         img: Pic9,
+        class: "hover:bg-[#762109]",
         review: "InspireEd School is truly exceptional! The dedicated educators, innovative programs, and supportive environment have given our child an excellent education and a lifelong love for learning. "
     },
     {
@@ -78,6 +87,7 @@ const PeopleReviewsData = [
         name: "Rosella ween",
         date: "March 16, 2023",
         img: Pic10,
+        class: "hover:bg-[#543361]",
         review: "I can't praise InspireEd School enough. The nurturing atmosphere, diverse extracurricular activities, and focus on holistic growth make it a top-notch choice for education "
     },
     
