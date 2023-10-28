@@ -10,6 +10,7 @@
 body {
     font-family: var(--font-montserrat);
     color: #000;
+    background-color: transparent;
   }
   header{
     /* background: rgba(255, 255, 255, 0.854);
@@ -137,30 +138,30 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   /* slider fade slowly */
-  .mySwiper .swiper-slide {
+  /* .mySwiper .swiper-slide {
     opacity: 0;
     transition: opacity 2s; 
   }
   
   .mySwiper .swiper-slide-active {
     opacity: 1;
-  }
+  } */
 
   /* new */
-  /* .fade-animation {
+  .fade-animation {
     opacity: 0;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 0s ease-in-out;
   }
   
   .fade-animation.active {
     opacity: 1;
   }
-  .hiden {
+  /* .hiden {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.5s ease-in-out;
   } */
-  .section {
+  /* .section {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.5s ease-in-out, visibility 0s linear 0.5s;
@@ -170,4 +171,4 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
     visibility: visible;
     transition: opacity 0.5s ease-in-out;
-  }
+  } */
