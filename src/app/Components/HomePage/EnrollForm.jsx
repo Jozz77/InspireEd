@@ -3,8 +3,6 @@
 import React, { useState } from "react";
 
 export default function EnrollForm({ isOpen, onClose }) {
-  if (!isOpen) return null;
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -25,6 +23,8 @@ export default function EnrollForm({ isOpen, onClose }) {
   const [errors, setErrors] = useState({});
   const [isLoading, setIsLoading] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  if (!isOpen) return null;
 
   const handleChange = (e) => {
     const { name, value } = e.target;
