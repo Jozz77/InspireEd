@@ -1,5 +1,6 @@
 import Footer from './Components/Footer'
 import Header from './Components/Header'
+import Header2 from './Components/Header2'
 import Hero from './Components/Hero/Hero'
 import Address from './Components/HomePage/Address'
 import Cocurricular from './Components/HomePage/Cocurricular'
@@ -13,7 +14,8 @@ import Video from './Components/HomePage/Video'
 export default function Home() {
   return (
     <section>
-      <Header />
+      {/* <Header /> */}
+      <Header2 />
       <main>
         <Hero />
         {/* <EnrollForm /> */}
