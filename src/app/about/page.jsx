@@ -7,11 +7,13 @@ import AboutFaq from './Components/AboutFaq'
 import Header from '../Components/Header'
 import Glance from '../Components/HomePage/Glance'
 import Footer from '../Components/Footer'
+import Header2 from '../Components/Header2'
 
 export default function page() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
+      <Header2 />
       <AboutHero />
       <Great />
       <Founder />

@@ -7,11 +7,13 @@ import Hero from './Components/Hero'
 import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import Address from '../Components/HomePage/Address'
+import Header2 from '../Components/Header2'
 
 export default function page() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
+      <Header2 />
       <Hero />
       <General />
       <Curriculum />
