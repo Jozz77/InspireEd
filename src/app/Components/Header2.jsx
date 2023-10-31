@@ -100,9 +100,8 @@ export default function Header2() {
         >
           {/* Desktop navigation links */}
           {navLink.map(({ link, name }) => (
-            <section className="hidden sm:flex">
+            <section className="hidden sm:flex" key={name}>
               <Link
-                key={name}
                 href={link}
                 className={`${
                   router.pathname === link ? " text-red-800 bg-black" : ""

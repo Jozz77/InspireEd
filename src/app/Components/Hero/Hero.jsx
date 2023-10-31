@@ -68,7 +68,7 @@ export default function Hero() {
   ];
 
   return (
-    <div className="">
+    <div className=" relative">
       {sectionContent.map((content) => (
         <section
           key={content.id}
@@ -83,6 +83,9 @@ export default function Hero() {
           )}
         </section>
       ))}
+      {/* <div className='mt-8 absolute bottom-[28%] left-[45%]  '>
+            <Button text='ENROLL' />
+         </div> */}
     </div>
   );
 }
