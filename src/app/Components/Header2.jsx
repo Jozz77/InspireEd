@@ -129,7 +129,7 @@ export default function Header2() {
               Academics
             </Link>
             <Link
-              href="acadeclassesmics"
+              href="classes"
               className="block hover:text-gray cursor-pointer"
               onClick={handleMobileSectionClick}
             >
