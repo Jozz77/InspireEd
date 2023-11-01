@@ -20,7 +20,7 @@ export default function Overview() {
         </div>
       </section>
 
-      <section className=" flex flex-col sm:flex-row justify-between gap-y-6 pt-2 lg:pt-4 xl:pt-6 flex-wrap ">
+      <section className=" flex flex-col sm:flex-row justify-between lg:gap-y-10 gap-y-6 pt-2 lg:pt-4 xl:pt-6 flex-wrap ">
         {OverviewData.map((overview) => (
           <div className=" w-full sm:w-[31.5%]  " key={overview.id}>
             <div>

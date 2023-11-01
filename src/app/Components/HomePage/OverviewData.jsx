@@ -29,7 +29,7 @@ const OverviewData = [
     },
     {
         id: 4,
-        title: "Computer Science",
+        title: "Agriculture",
         text:"Cultivating land, nourishing life, and sustaining communities through Agriculture.",
         img: Image4
     },
