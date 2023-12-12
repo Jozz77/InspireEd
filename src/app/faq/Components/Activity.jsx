@@ -27,7 +27,7 @@ export default function Activity() {
         <div className="w-[100%] sm:w-[35%] lg:w-[40%] xl:w-[35%] ">
           <Image className=" w-full " src={ActivityPic} alt="School Bus" />
         </div>
-        <div className=" w-[100%] sm:w-[60%] lg:w-[55%] xl:w-[60%] py-4 lg:py-6 px-[2.5%] general-faq ">
+        <div className=" w-[100%] sm:w-[60%] lg:w-[55%] xl:w-[60%] py-4 lg:py-6 px-[2.5%] activity-faq ">
           <ul className=" flex flex-col gap-y-3 ">
             {ActivityData.map((item, index) => (
               <li key={index} className="   ">

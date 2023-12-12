@@ -22,7 +22,7 @@ module.exports = {
       },
       colors: {
           'Primary':'radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF',
-          'Secondary':'#4747D7',
+          'Secondary':'#4747D7',  
           'NormalWhite':'#FFF',
           'OtherWhite':'#EAECEC',
           'Purple':'#FE63E7',
