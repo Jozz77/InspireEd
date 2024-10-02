@@ -4,7 +4,7 @@ import { React, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "./Assets/LogoBlack.png";
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 export default function Header2() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +17,8 @@ export default function Header2() {
     setIsOpen(false); // Close the menu when a section link is clicked on mobile
   };
 
-  const router = useRouter();
+  const router = usePathname();
+  // console.log("router", router)
 
   const navLink = [
     {
@@ -104,8 +105,8 @@ export default function Header2() {
               <Link
                 href={link}
                 className={`${
-                  router.pathname === link ? " text-red-800 bg-black" : ""
-                }`}
+                  router === link ? " text-red-800  " : ""
+                } hover:text-red-800 text-base `}
               >
                 {name}
               </Link>

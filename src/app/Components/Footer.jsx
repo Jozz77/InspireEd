@@ -4,6 +4,9 @@ import Link from "next/link";
 import Logo from "./Assets/Logo.svg";
 
 export default function Footer() {
+  const date = new Date();
+  let currentYear = date.getFullYear();
+
   return (
     <div className=" footer py-6 ssm:py-6 sm:py-8 md:py-10 text-NormalWhite px-[5%] ">
       <section className=" w-[30%] ssm:w-[25%] sm:w-[20%] md:w-[18%] lg:w-[12%] xl:w-[10%] flex mx-auto ">
@@ -23,8 +26,13 @@ export default function Footer() {
       <section className="  ">
         <hr className="border-solid border-[1px] border-NormalWhite" />
         <div className=" flex justify-between text-[0.8rem] ssm:text-[0.9rem] sm:text-[1.1rem] md:text-[1.2rem] lg:text-[1.3rem] capitalize pt-2 ">
-          <small>Copyright @ 2023 InspireEd</small>
-          <small>Designed by Joygirl</small>
+          <small>Copyright @ {currentYear} InspireEd</small>
+          <small>
+            Designed by{" "}
+            <Link href="https://hijoygirl.com/" target="_blank">
+              Joygirl
+            </Link>{" "}
+          </small>
         </div>
       </section>
     </div>
