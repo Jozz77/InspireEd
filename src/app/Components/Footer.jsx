@@ -29,7 +29,7 @@ export default function Footer() {
           <small>Copyright @ {currentYear} InspireEd</small>
           <small>
             Designed by{" "}
-            <Link href="https://hijoygirl.com/" target="_blank">
+            <Link className=" hover:text-[#0000ffa9] " href="https://hijoygirl.com/" target="_blank">
               Joygirl
             </Link>{" "}
           </small>
